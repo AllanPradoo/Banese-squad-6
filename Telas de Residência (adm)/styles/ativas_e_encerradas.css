@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+
+.menu-container {
+    background-color: #36AF5C;
+    display: inline-block;
+    height: 100vh;
+    padding: 15px;
+}
+
+#logo-banese {
+    width: 62%;
+}
+
+#simbolo-menu {
+    width: 12%;
+    height: 12%;
+}
+
+.cabecalho-menu {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.opcoes-menu {
+    margin-top: 8.25rem;
+    font-size: 1rem;
+}
+
+.conteudo-menu {
+    list-style: none;
+}
+
+.item a {
+    color: white;
+    text-decoration: none;
+}
+
+.item {
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.item img {
+    width: 9.5%;
+}
+
+.conta-user {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    position: fixed;
+    bottom: 2vh;
+    color: white;
+}
+
+.conta-user img {
+    width: 17%;
+}
+
+.conta-user span {
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+}
+
+.campanha-container {
+    padding: 25px;
+    width: 100%;
+    height: 100vh;
+}
+
+.cabecalho-campanha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    border: none;
+    padding-right: 40px;
+    outline: none;
+}
+
+.campo-pesquisa {
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+}
+
+.campo-pesquisa img {
+    width: 9%;
+    margin-left: 5px;
+}
+
+.campanhas-ativas {
+    background-color: #D9D9D9;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 12px 25px;
+    height: 83vh;
+    max-height: 83vh;
+    align-items: center;
+}
+
+.informacoes-campanha {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(202, 202, 202);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.item a:hover {
+    opacity: 0.7;
+    transition: all 55ms;
+    scale: 0.9;
+}
+
+html {
+    overflow: hidden;
+}
+
+.campanha-item {
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: rgb(202, 202, 202);
+    align-items: center;
+}
+
+.campanha-item p {
+    max-width: 7rem;
+}
+
+.botao-encerrar-campanha {
+    background-color: red;
+    color: white;
+    border-style: solid;
+    border-color: red;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+
+.botao-encerrar-campanha:hover {
+    opacity: 0.5;
+}
